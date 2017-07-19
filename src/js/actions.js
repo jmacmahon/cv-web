@@ -1,0 +1,3 @@
+export default {
+  UPDATE_SEARCHBOX_VALUE: 'UPDATE_SEARCHBOX_VALUE',
+};

@@ -45,6 +45,7 @@ gulp.task('serve', ['build'], () => {
     server: {
       baseDir: 'dist',
     },
+    open: false,
   });
   gulp.watch('src/js/**/*.js{,x}', ['browserify']);
   gulp.watch('src/css/**/*.scss', ['sass']);
